@@ -1,7 +1,7 @@
-import './style-header.css'
+import { Link } from "react-router-dom";
 import LogoSenai from '../../assets/img/Logo SENAI.svg'
 
-export default function HomeHeader() {
+export default function NavBar() {
     return (
         <>
             <header className='headerhome-container'>
@@ -10,13 +10,10 @@ export default function HomeHeader() {
                     <a href="">Matérias</a>
                     <a href="">Especifícações</a>
                     <a href="">Créditos</a>
+
+                    <Link to="/hardware">Hare</Link>
                 </div>
             </header>
-            <main className='text-header'>
-                <h1>DESENVOLVIMENTO DE SISTEMAS</h1>
-                <h4 className='Curso'>C U R S O</h4>
-                <h4 className='Senai'>SENAI</h4>
-            </main>
         </>
     )
 }
