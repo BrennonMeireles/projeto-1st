@@ -1,0 +1,79 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    color: #ffff;
+    
+    /* width: 100vw;" */
+    /* height: 300px; */
+    background-color: black;
+    border-top: 2px solid#ffff;
+
+}
+
+.image-senai-footer {
+    margin: 20px;
+
+}
+
+.H1information-footer {
+    font-family: "Carme", sans-serif;
+    border-bottom: 2px solid#ffff;
+}
+
+.H1contacts-footer {
+    
+    font-family: "Carme", sans-serif;
+    
+    border-bottom: 2px solid#ffff;
+    width: 58%;
+}
+
+.button-footer {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.button-footer > button {
+    background-color: transparent;
+}
+
+
+    
+
+
+.leters-contacts-section, .leters-informations-section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leters-contacts-section>p, .leters-informations-section>p {
+    font-family: "Roboto", sans-serif;
+    color: #989898;
+    border-radius: 5px;
+    background-color: #48484873;
+    box-sizing: content-box;
+    width: fit-content;
+    padding: 5px 10px;
+    /* margin-bottom: 15px; */
+    
+
+}
+
+/* .contacts-footer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+.button-footer {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+} */
