@@ -1,0 +1,19 @@
+footer {
+   
+   padding: 40px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;     */
+    width: 100vw;
+    height: 300px;
+
+    background-color: black;
+    border-top: 10px solid#ffff; 
+    
+}
+
+.image-senai-footer {
+    margin: 20px;
+    margin-left: 40px;
+}
