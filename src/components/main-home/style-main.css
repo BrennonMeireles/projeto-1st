@@ -1,0 +1,26 @@
+.materia-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    padding: 100px 40px;
+
+    /* justify-content: space-between; */
+    /* border: solid 1px white; */
+    
+}
+
+.materia-container>div>h1 {
+    color: #686868;
+    font-family: "Roboto", sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+}
+
+.container-textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    /* border: solid 1px white; */
+}
