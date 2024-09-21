@@ -4,7 +4,6 @@ import LogoSenai from '../../assets/img/Logo SENAI.svg'
 export default function HomeHeader() {
     return (
         <>
-        <div className='gif'>
             <header className='headerhome-container'>
                 <img src={LogoSenai} alt="" />
                 <div className="links">
@@ -13,9 +12,11 @@ export default function HomeHeader() {
                     <a href="">Créditos</a>
                 </div>
             </header>
-            
-        </div>
-
+            <main className='text-header'>
+                <h1>DESENVOLVIMENTO DE SISTEMAS</h1>
+                <h4 className='Curso'>C U R S O</h4>
+                <h4 className='Senai'>SENAI</h4>
+            </main>
         </>
     )
 }
