@@ -1,4 +1,3 @@
-import './text-style-header.css'
 
 export default function HeaderBox({title}) {
     return (
