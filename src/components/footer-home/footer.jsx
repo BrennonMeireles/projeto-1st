@@ -13,10 +13,12 @@ export default function HomeFooter() {
 
             <div className='contacts-footer'>
                 <h1 className='H1contacts-footer'>CONTATOS</h1>
-                <p>+55 11 5642-3440</p>x
-                <p>thais.reis@sp.senai.br</p>
-                <p>R. Bento Branco de Andrade Filho, 379</p>
-                <p>São Paulo - SP</p>
+                <ul className='leters-contacts-section'>
+                    <p>+55 11 5642-3440</p>
+                    <p>thais.reis@sp.senai.br</p>
+                    <p>R. Bento Branco de Andrade Filho, 379</p>
+                    <p>São Paulo - SP</p>
+                </ul>
                 <div className='button-footer'>
                     <button><img src={ImageFace} alt="Facebook" /></button>
                     <button><img src={ImageInsta} alt="Instagram" /></button>
@@ -25,11 +27,13 @@ export default function HomeFooter() {
             </div>
             <div className='information-footer'>
                 <h1 className='H1information-footer'>INFORMAÇÕES</h1>
-                <p>Grade Curricular</p>
-                <p>Especificações</p>
-                <p>Créditos</p>
+                <section className='leters-informations-section'>
+                    <p>Grade Curricular</p>
+                    <p>Especificações</p>
+                    <p>Créditos</p>
+                </section>
             </div>
-           
+
 
         </footer>
     )

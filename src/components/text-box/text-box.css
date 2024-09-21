@@ -1,0 +1,42 @@
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    border-radius: 10px;
+    background-color: rgba(153, 153, 153, 0.04);
+
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.10);
+    color: #fff;
+    padding: 50px;
+    width: 850px;
+
+    /* width: 70%; */
+}
+
+.text-box>div>h4 {
+    font-family: "Carme", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-box > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-box>p {
+    color: #958E8E;
+    font-family: "Prompt", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.quadrado-icon{
+    width: 20px;
+    height: 20px;
+    background-color:#9551D7;;
+}
