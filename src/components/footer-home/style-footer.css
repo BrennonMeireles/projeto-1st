@@ -1,11 +1,11 @@
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px;
     color: #ffff;
     
     /* width: 100vw;" */
-    height: 300px;
+    /* height: 300px; */
     background-color: black;
     border-top: 2px solid#ffff;
 
@@ -13,7 +13,7 @@ footer {
 
 .image-senai-footer {
     margin: 20px;
-    margin-left: 40px;
+
 }
 
 .H1information-footer {
@@ -22,7 +22,9 @@ footer {
 }
 
 .H1contacts-footer {
+    
     font-family: "Carme", sans-serif;
+    
     border-bottom: 2px solid#ffff;
     width: 58%;
 }
@@ -37,6 +39,18 @@ footer {
     background-color: transparent;
 }
 
+
+    
+
+
+.leters-contacts-section, .leters-informations-section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .leters-contacts-section>p, .leters-informations-section>p {
     font-family: "Roboto", sans-serif;
     color: #989898;
@@ -45,7 +59,9 @@ footer {
     box-sizing: content-box;
     width: fit-content;
     padding: 5px 10px;
-    margin: 5px;
+    /* margin-bottom: 15px; */
+    
+
 }
 
 /* .contacts-footer {
