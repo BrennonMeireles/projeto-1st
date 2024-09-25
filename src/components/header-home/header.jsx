@@ -1,17 +1,10 @@
 import './style-header.css'
-import LogoSenai from '../../assets/img/Logo SENAI.svg'
+import NavBar from '../../components/navbar/navbar'
 
 export default function HomeHeader() {
     return (
         <>
-            <header className='headerhome-container'>
-                <img src={LogoSenai} alt="" />
-                <div className="links">
-                    <a href="">Matérias</a>
-                    <a href="">Especifícações</a>
-                    <a href="">Créditos</a>
-                </div>
-            </header>
+            <NavBar />
             <main className='text-header'>
                 <h1>DESENVOLVIMENTO DE SISTEMAS</h1>
                 <h4 className='Curso'>C U R S O</h4>

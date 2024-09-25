@@ -1,0 +1,39 @@
+.text-header > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    
+    padding: 12px 32px;
+    width: 229px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Carme';
+
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.text-header > h1{
+    font-family: 'Carme' , sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+
+    letter-spacing: 10px;
+}
+
+.text-header{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+.Curso{
+    font-family: 'Carme' , sans-serif;   
+}
+
