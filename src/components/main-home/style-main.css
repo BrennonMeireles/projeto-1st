@@ -8,19 +8,28 @@
 
     /* justify-content: space-between; */
     /* border: solid 1px white; */
-    
+
 }
 
-.materia-container>div>h1 {
+.materia-container>div>a {
     color: #686868;
     font-family: "Roboto", sans-serif;
     font-size: 150px;
     font-weight: 800;
 }
 
-.container-textbox{
+.container-textbox {
     display: flex;
     flex-direction: column;
     gap: 80px;
     /* border: solid 1px white; */
+}
+
+.materias:hover {
+    color: #a4a4a4;
+    cursor: pointer;
+}
+
+.materias {
+    transition: 0.3s ease-in-out;
 }
