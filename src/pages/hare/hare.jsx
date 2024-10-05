@@ -1,10 +1,12 @@
 import TextBox from "../../components/text-box/text-box";
-import Cisco from '../../assets/img/GIFS/ciscopretologo.gif'
+import HeaderBox from "../../components/text-header/text-box";
+import Title from "../../components/title/title";
+import CiscoProject from "../../assets/img/projeto-basico-cisco.png";
 
 import './hare.css'
 
-export default function HarePage(){
-    return(
+export default function HarePage() {
+    return (
         <>
             <div className="container-text">
                 <TextBox
@@ -15,7 +17,17 @@ export default function HarePage(){
 
             <div className="container-img"></div>
 
-            <div className="container-img-ccna"></div>
+            <Title
+                title='CISCO PACKET TRACER'
+                subTitle='REDES'
+            />
+
+            <article className="container-img-ccna">
+                <div className="moldura-img">
+                    <img src={CiscoProject} alt="projeto simples no packet tracer" />
+                </div>
+            </article>
+
         </>
     )
 }
