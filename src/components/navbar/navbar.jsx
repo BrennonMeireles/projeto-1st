@@ -7,9 +7,9 @@ export default function NavBar() {
             <header className='headerhome-container'>
                 <img src={LogoSenai} alt="" />
                 <div className="links">
-                        <a href="">Matérias</a>
-                        <a href="">Especifícações</a>
-                        <a href="">Créditos</a>
+                    <a href="/materias">Matérias</a>
+                    <a href="">Especifícações</a>
+                    <a href="">Créditos</a>
 
                     <Link to="/hardware">Hardware</Link>
                 </div>
