@@ -1,0 +1,16 @@
+.container-materias{
+    width: 100vw;
+    height: 100vh;
+
+    padding: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-materias > a {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
