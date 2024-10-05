@@ -1,20 +1,29 @@
-.container-img{
+.container-img {
     background-image: url(../../assets/img/GIFS/ciscopretologo.gif);
     background-size: cover;
     background-position: center;
     height: 470px;
 }
 
-.container-text{
+.container-text {
     display: flex;
     justify-content: center;
     padding: 100px 50px;
 }
 
-.container-img-ccna{
-    background-image: url(../../assets/img/GIFS/);
-    background-size: cover;
-    background-position: center;
-    height: 470px;
+.container-img-ccna {
+    display: flex;
+    justify-content: center;
 }
 
+.moldura-img {
+    width: 60%;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: -5px 5px 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+.moldura-img>img {
+    width: 100%;
+    height: auto;
+}
